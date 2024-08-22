@@ -8,8 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"pretty"},
         features = "src/test/resources/features",
-        glue = "com.nttdata.stepdef",
-        tags = ""
+        glue = "com.nttdata.stepdef"
 )
 public class CucumberTestSuite {
 
